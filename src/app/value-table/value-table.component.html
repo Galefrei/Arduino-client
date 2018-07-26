@@ -1,0 +1,15 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th>Время</th>
+      <th>Значение</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr *ngFor="let point of points">
+      <td>{{point.dateTime}}</td>
+      <td>{{point.value}}</td>
+    </tr>
+  </tbody>
+</table>
